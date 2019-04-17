@@ -2,59 +2,55 @@
 <html lang="es">  
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>movieton</title>
+  <meta name="Let's goport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon.png">
+  <title>MOVIETHON</title>
   <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
   <header id="logo-box" class="hide">
         <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#"><img  class='logo'src="./img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" href="#page-home" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                      <a  id="home" class="nav-link" href="#"><strong>HOME</strong></a>
+                      <a id="home" href="#page-welcome" class="nav-link" href="#"><strong>HOME</strong></a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a  id="gender" class="nav-link" href="#"><strong>GENRE</strong></a>
+                      <a id="gender" href="#page-home" class="nav-link" href="#"><strong>GENRE</strong></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a  id="gender" class="nav-link" href="#"><strong>SAGA</strong></a>
+                      <a id="saga" href="#page-saga" class="nav-link" href="#"><strong>SAGA</strong></a>
                     </li>
                   </ul>
                 </div>
-              </nav> 
+          </nav> 
   </header>
   <main>
   <section id="page-welcome" class="show">
     <div class="container">
-    <br><br><br><br><br><br>
     <div class='row'>
     <div class='col-12'>
     <img class='logo-2' src="./img/logo.png" alt="">
     </div>
     </div>
-    <br><br><br>
     <div class='row'>
-    <h1 class='col-12'><strong>Ya no lo postergues más...</strong></h1>
+    <h1 class='col-12'><strong>Ya no la postergues más.</strong></h1>
     </div>
-    <br>
     <div class='row'>
-    <h2 class='col-12'>Busca las películas, inicia con la marathón.</h2>
+    <h2 class='col-12'>Busca las películas. Inicia la maratón.</h2>
     </div>
-    <br><br><br><br>
     <div class='row'>
     <div class='col-12'>
-     <button  tabindex="0" id="button-welcome" class="btn btn-lg  btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Let´s Go">BUSCAR</button>
+     <button tabindex="0" id="button-welcome" class="btn btn-lg  btn-danger" data-toggle="popover" data-trigger="focus" title="Let´s Go">Search</button>
     </div>
-     <br><br><br> <br><br>
     </div>
   </section>
+  <section class="moviethon-content">
   <div id="page-home" class="hide">
     <div class="container">
         <div class="row">
@@ -73,51 +69,57 @@
                 <div class="carousel-item active" id="bevog-image-1">
                   <img src="../src/img/50shades.jpg" class="d-block" alt="...">
                   <div class="carousel-caption">
-                    <h4>Brindando conocimiento para erradicar las diferencias de género.</h4>
-                    <button>Ver Ahora</button>
+                    <h4>FIFTY SHADES OF GRAY</h4>
+                    <h6>Are you looking for a bit of romance and a lot of passion?</h6>
+                    <button tabindex="0" id="Let's go" href="#page-movie" class="btn btn-lg  btn-danger" data-toggle="popover" data-trigger="focus" title="Let´s Go">Let's go</button>
                   </div>
                 </div>
                 <div class="carousel-item" id="bevog-image-2">
                   <img src="../src/img/avengers.jpg" class="d-block" alt="...">
                   <div class="carousel-caption">
-                    <h4>La educación es esencial para que las mujeres puedan alcanzar la igualdad de género y
-                      convertirse en agentes de cambio. </h4>
-                    <button>Ver Ahora</button>
+                    <h4>THE AVENGERS SAGA</h4>
+                      <h6>If you are feeling like watching a bunch of superheroes with high-tech weapons trying to save the Earth, this is your place</h6>
+                    <button tabindex="0" id="Let's go" href="#page-movie" class="btn btn-lg  btn-danger" data-toggle="popover" data-trigger="focus" title="Let´s Go">Let's go</button>
                   </div>
                 </div>
                 <div class="carousel-item" id="bevog-image-3">
                   <img src="../src/img/harrypotter.jpg" class="d-block" alt="...">
                   <div class="carousel-caption">
-                    <h4>En el país el género sigue siendo un factor importante a la hora de contratar a alguien.</h4>
-                    <button>Ver Ahora</button>
+                    <h4>HARRY POTTER</h4>
+                    <h6> Do you want to learn about true friendship and discover the amazing Wizarding World?</h6>
+                    <button tabindex="0" id="Let's go" href="#page-movie" class="btn btn-lg  btn-danger" data-toggle="popover" data-trigger="focus" title="Let´s Go">Let's go</button>
                   </div>
                 </div>
                 <div class="carousel-item" id="bevog-image-4">
                         <img src="../src/img/paranormal activity.jpg" class="d-block" alt="...">
                         <div class="carousel-caption">
-                          <h4>En el país el género sigue siendo un factor importante a la hora de contratar a alguien.</h4>
-                          <button>Ver Ahora</button>
+                          <h4>PARANORMAL ACTIVITY</h4>
+                          <h6>Looking for a loooong and scary night? Discover the bloodcurdling story of people haunted by supernatural presences.</h6>
+                          <button tabindex="0" id="Let's go" href="#page-movie" class="btn btn-lg  btn-danger" data-toggle="popover" data-trigger="focus" title="Let´s Go">Let's go</button>
                         </div>
                 </div>
                 <div class="carousel-item" id="bevog-image-5">
                         <img src="../src/img/starwars.jpg" class="d-block" alt="...">
                         <div class="carousel-caption">
-                          <h4>En el país el género sigue siendo un factor importante a la hora de contratar a alguien.</h4>
-                          <button>Ver Ahora</button>
+                          <h4>STAR WARS</h4>
+                          <h6> Ready to be amazed by how humans and androids co-exist in a galaxy far, far away? Of course, special effects makes everything better</h6>
+                          <button tabindex="0" id="Let's go" href="#page-movie" class="btn btn-lg  btn-danger" data-toggle="popover" data-trigger="focus" title="Let´s Go">Let's go</button>
                         </div>
                 </div>
                 <div class="carousel-item" id="bevog-image-6">
                         <img src="../src/img/toystory.jpg" class="d-block" alt="...">
                         <div class="carousel-caption">
-                          <h4>En el país el género sigue siendo un factor importante a la hora de contratar a alguien.</h4>
-                          <button>Ver Ahora</button>
+                          <h4>TOY STORY</h4>
+                          <h6>Imagine a world where toys are living things but pretend to be lifeless when humans are present. Incredible, right? Just get ready to discover more about the life of toys.</h6>
+                          <button tabindex="0" id="Let's go" href="#page-movie" class="btn btn-lg  btn-danger" data-toggle="popover" data-trigger="focus" title="Let´s Go">Let's go</button>
                         </div>
                 </div>
                 <div class="carousel-item" id="bevog-image-7">
                         <img src="../src/img/wp18511theconjuring.jpg" class="d-block" alt="...">
                         <div class="carousel-caption">
-                          <h4>En el país el género sigue siendo un factor importante a la hora de contratar a alguien.</h4>
-                          <button>Ver Ahora</button>
+                          <h4>THE CONJURING</h4>
+                          <h6>How about going into the terrorific stories of a family and the paranormal events that happened in their house?</h6>
+                          <button tabindex="0" id="Let's go" href="#page-movie" class="btn btn-lg  btn-danger" data-toggle="popover" data-trigger="focus" title="Let´s Go">Let's go</button>
                         </div>
                 </div>
               </div>
@@ -131,7 +133,6 @@
               </a>
             </div>
           </div>
-
         </div>
     </div>
     <div class="container">
@@ -143,33 +144,111 @@
                 <button id='suspense'type="button" class="btn btn-danger">Suspense</button>
                 <button id='horror' type="button" class="btn btn-danger">Horror</button>
                 <button id='fantasy'type="button" class="btn btn-danger">Fantasy</button>
-                <button id='scyfi' type="button" class="btn btn-danger">Scy-Fi</button>
-                <button id='accion' type="button" class="btn btn-danger">Accion</button>
+                <button id='scyfi' type="button" class="btn btn-danger">Sci-Fi</button>
+                <button id='accion' type="button" class="btn btn-danger">Action</button>
                 <button id='romance'type="button" class="btn btn-danger">Romance</button>
                 <button id='animes' type="button" class="btn btn-danger">Animation</button>
             </section>
         </div>
-        </div>
-        <div class="row">
-        <!-- <div class="col-12"> -->
-           <div id="allMovies" class="card-deck"> </div>  
-        </div>
-        </div>
+        <div id="allMovies" class="card-deck"></div>
+    </div>
     </div>
   </div>
+  </div>
+  <div id="page-saga" class="hide">
+    <div class="cards-list">
+      <div class="cards 1">
+        <div class="card_image"> <img src="./img/sagas/FUTURE PORTADA.PNG" /> </div>
+      </div>
+      
+        <div class="cards 2">
+        <div class="card_image">
+          <img src="./img/sagas/GRAYPORTADA.PNG" />
+          </div>
+
+      </div>
+      
+      <div class="cards 3">
+        <div class="card_image">
+          <img src="./img/sagas/UNBREAKABLEPORTADA.PNG" />
+        </div>
+      </div>
+        
+        <div class="cards 4">
+        <div class="card_image">
+          <img src="./img/sagas/avengersportada.jpg" />
+          </div>
+        <div class="card_title">
+          <p>The Avengers</p>
+        </div>
+        </div>
+
+        <div class="cards 5">
+          <div class="card_image">
+            <img src="./img/sagas/finaldestinationportada.PNG" />
+            </div>
+          </div>
+
+          <div class="cards 6">
+            <div class="card_image">
+              <img src="./img/sagas/harryportada.jpg" />
+              </div>
+            <div class="card_title">
+              <p>Harry Potter</p>
+            </div>
+            </div>
+
+            <div class="cards 7">
+              <div class="card_image">
+                <img src="./img/sagas/paranormalactivityportada.PNG" />
+                </div>
+              </div>
+
+              <div class="cards 8">
+                <div class="card_image">
+                  <img src="./img/sagas/piratescaptura.PNG" />
+                  </div>
+                </div>
+
+                <div class="cards 9">
+                  <div class="card_image">
+                    <img src="./img/sagas/ringportada.PNG" />
+                    </div>
+                  </div>
+
+                  <div class="cards 10">
+                    <div class="card_image">
+                      <img src="./img/sagas/shrekportada.PNG" />
+                      </div>
+                    </div>
+
+                    <div class="cards 11">
+                      <div class="card_image">
+                        <img src="./img/sagas/starwarsportsda.jpg" />
+                        </div>
+                      </div>
+
+                      <div class="cards 12">
+                        <div class="card_image">
+                          <img src="./img/sagas/toy story portada.PNG" />
+                          </div>
+                        </div>
+
+                        <div class="cards 13">
+                          <div class="card_image">
+                            <img src="./img/sagas/twilight portada.PNG" />
+                            </div>
+                          </div>
+      
+</div>
+</section>
   </main>
-  <footer id='footer' class="page-footer hide">
-        <div class="footer-copyright text-center py-1">© 2019 Copyright: Moviethon Perú</div>
-      </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <footer id="footer" class="page-footer hide">
+    <div class="footer-copyright text-center py-1">©2019 Copyright: Moviethon Perú</div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="./js/data.js"></script>
   <script src="./js/main.js"></script>
 </body>
